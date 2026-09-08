@@ -100,6 +100,16 @@ affected derivations before current use. Preserve earlier artifacts as history.
 
 ## Scope and continuation
 
+For an authorized implementation task, completing the requested deliverable
+includes the necessary design, implementation, execution, verification and repair.
+Derive acceptance checks from the supplied scientific requirements, inspect the
+actual outputs and affected downstream use, and fix failures within scope before
+reporting completion. This is default execution responsibility: do not require
+the user to request tests, review, debugging or OpenSpec separately. Reuse existing
+checks and keep execution details internal unless needed to assess the result.
+Only an unresolved author-owned decision, missing essential input, permission or
+external blocker pauses dependent work; continue other authorized work.
+
 A single-stage request ends with that deliverable, including necessary supporting
 owners such as citation verification or formatting. A new independent research
 stage requires user authorization; users need not enumerate internal owner calls.

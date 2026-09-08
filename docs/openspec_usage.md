@@ -6,11 +6,15 @@ CLI 保持上游实现；科研适配位于项目 `openspec/` 和 Research Agent
 
 ## 使用
 
-已经初始化的项目中，可以直接提出：
+正常调用 Research Agent 即包含任务所需的设计、实现、运行、验证与修复。
+用户不需要另行强调测试、检查或完成闭环；已有充分要求时，Agent 自行制定
+验收并核对实际结果。OpenSpec 负责记录，未使用 OpenSpec 的任务也承担相同
+执行责任。只读、解释或规划请求保持原范围。
+
+可以直接提出：
 
 ```text
-调用 Research agent，按这份作者确认的 TODO 完成第 X 项，使用 OpenSpec
-记录要求、实现和实际验收；沿用已有授权，科学口径变化交我决定。
+调用 Research agent，按这份作者确认的 TODO 完成第 X 项。
 ```
 
 当前选用 propose、explore、apply、verify、archive；上游自动加入 sync
