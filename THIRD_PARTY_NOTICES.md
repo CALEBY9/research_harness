@@ -25,7 +25,19 @@ Retain original notices and review component-specific terms before redistributio
 - Current installed content and platform metadata are preserved. No upstream
   code update or fresh plugin compatibility certification is claimed.
 
-## Local adapters
+## OpenSpec
+
+- Official package: `@fission-ai/openspec` version `1.12.0`.
+- Source: https://github.com/Fission-AI/OpenSpec/tree/v1.12.0
+- License: MIT; retained at `openspec/OPENSPEC_LICENSE`.
+- `.agents/skills/openspec-*` are upstream-generated project integrations. Bodies
+  and notices are retained; compatibility moved into metadata and Bash-only
+  allowed-tools removed for local Codex validation/shell compatibility. The CLI
+  is installed separately, not vendored.
+- `openspec/schemas/research-task` and Research Agent's OpenSpec reference are
+  local research adaptations; they are not upstream scientific validation claims.
+
+## Local adapter terms
 
 Local research adapters and the router come from the user's existing installation.
 Their source/provenance notes remain where supplied. In particular,

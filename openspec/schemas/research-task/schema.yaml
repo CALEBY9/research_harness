@@ -1,0 +1,37 @@
+name: research-task
+version: 1
+description: One bounded research work package linked to existing author-confirmed documents
+artifacts:
+  - id: tasks
+    generates: tasks.md
+    description: Source-bound tasks, scientific acceptance observations and actual evidence
+    template: tasks.md
+    instruction: |
+      Read the current author-confirmed source and relevant implementation first.
+      Create one bounded work package using the template. Reference source paths
+      and sections rather than copying the scientific plan. Distinguish accepted
+      decisions, assumptions and unresolved choices; do not infer approval from
+      a timestamp, another model's suggestion or existing code.
+      Each checkbox must identify its requirement and how completion is observed.
+      Reuse existing tests and reports. Keep expected observations separate from
+      actual evidence; leave unexecuted acceptance checks pending. A necessary
+      new test must exercise a scientific or execution boundary, not mirror code.
+      Keep the work within existing authorization. Do not add a second framework,
+      manifest, wrapper or defensive fallback without a concrete need.
+    requires: []
+apply:
+  requires: [tasks]
+  tracks: tasks.md
+  instruction: |
+    Read tasks.md and its linked authoritative source clauses before editing.
+    An artifact being ready is not proof of author approval or scientific validity.
+    Continue the existing authorized work package; do not request approval again
+    solely for transitioning from planning to implementation. Pause only dependent
+    work when an unresolved scientific choice or scope/permission change requires
+    the author. Preserve unrelated edits and active production bindings.
+    Review source-to-code coverage and code-to-source justification. Verify actual
+    downstream observations, not just process exit or keyword matches. For this
+    schema, correctness is checked against tasks.md and its linked sources even
+    though there is no delta-spec artifact. Record missing, partial, contradictory
+    or unrequested implementation in its evidence table. Check off tasks only
+    after their stated acceptance passes; do not rewrite science to fit code.

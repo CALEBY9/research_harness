@@ -44,6 +44,21 @@ For `data_analyze`, treat a sufficiently complete `ANALYSIS_PLAN.md` as the
 spec. Add missing scientific invariants or acceptance checks there instead of
 creating parallel documentation.
 
+For a task driven by an author-confirmed discussion document or TODO, bind the
+current source path and section before implementation. Distinguish accepted
+decisions from unresolved discussion and historical status; a newer timestamp
+alone does not resolve a scientific conflict. In the existing work report,
+map each in-scope requirement to implementation, acceptance check, actual
+evidence and status. Review the diff in reverse too: identify changes with no
+requirement or necessary supporting role, including redundant implementations
+and defensive mechanisms without a concrete failure scenario. Unexecuted
+checks remain unverified. Do not change scientific requirements or expected
+observations merely to accommodate implementation.
+
+When the user requests OpenSpec or the project already uses it, read
+`openspec-research.md`. OpenSpec stores the work package; the existing scientific
+contract and task owner remain authoritative. Simple tasks do not require it.
+
 ## Spec lifecycle
 
 Use only the states needed for the task:

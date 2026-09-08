@@ -119,6 +119,9 @@ permission.
 
 ## Research code and maintenance
 
+For an explicitly requested OpenSpec task or a project already using OpenSpec,
+read `references/openspec-research.md` while retaining the current task owner.
+
 Before creating or materially changing research code or analysis configuration,
 read `references/research-code-spec.md`. It owns `FORMAL`, `MINI`, and
 `NOT_APPLICABLE` selection, existing-spec reuse, and scientific decision points.

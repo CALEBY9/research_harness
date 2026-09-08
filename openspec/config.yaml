@@ -1,0 +1,34 @@
+schema: research-task
+
+context: |
+  Language: Chinese
+  All artifacts must be written in Chinese.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+  This repository maintains Research Agent source. Preserve Nature/local owners
+  and author-controlled science. Read AGENTS.md and docs/architecture.md.
+  Existing scientific plans and TODOs remain authoritative in their research
+  projects. Keep private inputs and machine-specific evidence out of this repo.
+  A user request to implement persists through planning and checks; planning-only
+  requests remain planning-only. Never infer scientific approval from CLI status.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing

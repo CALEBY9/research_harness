@@ -18,3 +18,10 @@ Read `docs/architecture.md` and `.agent/NEXT.md` when resuming maintenance.
 - For behavioral changes, follow the imported `skill_evolve_workflow` contract.
   Do not enable automatic self-editing, paid evaluations, schedules or subagents.
 - Keep `.agent/STATE.md` and `.agent/NEXT.md` local and concise after implementation.
+
+OpenSpec uses the project-local `research-task` schema and the Research Agent
+reference `skills/research-agent/references/openspec-research.md`. Follow existing
+authorization through implementation; planning-only requests remain planning-only.
+Verify the requirements linked from tasks.md even without delta specs. Artifact
+presence or checked tasks alone are not acceptance evidence. Keep project-specific
+science in its owning project; archive must not rewrite scientific definitions.
