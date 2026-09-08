@@ -1,0 +1,16 @@
+# Research artifacts and machine state stay outside the source repository.
+.agent/
+local_state/
+.env
+.env.*
+!.env.example
+auth.json
+credentials.json
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db

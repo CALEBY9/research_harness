@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer 中文版"
+  short_description: "自然改写中文文本，同时保持事实与原意"
+  default_prompt: "Use $humanizer-zh to rewrite this Chinese text naturally without changing its facts or claims."

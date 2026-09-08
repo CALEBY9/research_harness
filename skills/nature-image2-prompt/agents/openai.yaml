@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nature Image 2 Prompt"
+  short_description: "Nature-style prompt builder"
+  default_prompt: "Use $nature-image2-prompt to turn my manuscript content, reviewer comments, and reference figure into an Image 2 prompt for a Nature-style scientific diagram."
+policy:
+  allow_implicit_invocation: true

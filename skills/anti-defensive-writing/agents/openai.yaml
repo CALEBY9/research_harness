@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anti-Defensive Academic Writing"
+  short_description: "Remove rhetorical defensiveness without weakening evidence."
+  default_prompt: "Use $anti-defensive-writing to revise this manuscript passage without changing its evidence boundary."
